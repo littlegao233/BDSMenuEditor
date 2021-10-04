@@ -101,7 +101,7 @@ namespace System.Collections.Generic
             return false;
         }
 
-        public static bool Remove<TKey, TValue>(this IDictionary<TKey, TValue> dictionary, TKey key, [MaybeNullWhen(false)] out TValue value)
+        public static bool Remove<TKey, TValue>(this IDictionary<TKey, TValue> dictionary, TKey key, out TValue value)
         {
             if (dictionary == null)
             {
