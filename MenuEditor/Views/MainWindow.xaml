@@ -12,12 +12,11 @@
         Background="{DynamicResource MaterialDesignPaper}"
         TextElement.FontWeight="Medium"
         TextElement.FontSize="14"
-        FontFamily="{materialDesign:MaterialDesignFont}"
-        
+        FontFamily="Microsoft YaHei"
         d:DataContext="{d:DesignInstance Type=viewmodels:MainWindowViewModel}"
-        
         mc:Ignorable="d"
         Title="MenuEditor" Height="700" Width="1080" WindowStyle="SingleBorderWindow">
+        <!--FontFamily="{materialDesign:MaterialDesignFont}"-->
 
     <Window.InputBindings>
         <KeyBinding Modifiers="Ctrl" Key="O" Command="{Binding SelectScriptDialogViewModal.OpenCommand}"/>
